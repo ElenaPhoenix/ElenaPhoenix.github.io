@@ -1,0 +1,650 @@
+.template {
+  position: relative;
+  width: 595px;
+  height: 842px;
+  background-color: #ffffff;
+}
+
+.template .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 216px;
+  height: 842px;
+}
+
+.template .text-wrapper {
+  top: 590px;
+  left: 25px;
+  width: 101px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .frame {
+  position: absolute;
+  top: 47px;
+  left: 87px;
+  width: 56px;
+  height: 56px;
+  background-image: url(./img/image.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.template .div {
+  top: 120px;
+  left: 25px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-2 {
+  top: 145px;
+  left: 82px;
+  width: 51px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-3 {
+  top: 33px;
+  left: 240px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-4 {
+  top: 295px;
+  left: 240px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .NDA-IT-fintech {
+  position: absolute;
+  top: 315px;
+  left: 240px;
+  width: 331px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  line-height: normal;
+}
+
+.template .span {
+  font-weight: 700;
+  letter-spacing: 0.02px;
+}
+
+.template .text-wrapper-5 {
+  top: 330px;
+  left: 240px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .p {
+  top: 575px;
+  left: 240px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-6 {
+  top: 560px;
+  left: 240px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .element-google-sheets {
+  position: absolute;
+  top: 345px;
+  left: 240px;
+  width: 331px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 13px;
+}
+
+.template .element-SLA {
+  top: 590px;
+  left: 240px;
+  width: 331px;
+  font-family: "Roboto-Regular", Helvetica;
+  letter-spacing: 0;
+  line-height: 13px;
+  position: absolute;
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 10px;
+}
+
+.template .text-wrapper-7 {
+  top: 63px;
+  left: 240px;
+  width: 331px;
+  font-family: "Roboto-Regular", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 10px;
+}
+
+.template .text-wrapper-8 {
+  top: 165px;
+  left: 251px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .element-BI {
+  top: 190px;
+  left: 251px;
+  width: 320px;
+  font-family: "Roboto-Regular", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 10px;
+}
+
+.template .text-wrapper-9 {
+  top: 705px;
+  left: 240px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-10 {
+  top: 720px;
+  left: 240px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-11 {
+  top: 685px;
+  left: 240px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .geekbrains {
+  position: absolute;
+  top: 755px;
+  left: 240px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.template .text-wrapper-12 {
+  font-family: "Roboto-Regular", Helvetica;
+  letter-spacing: 0.02px;
+}
+
+.template .upper-intermediate {
+  top: 770px;
+  left: 240px;
+  font-family: "Roboto-Bold", Helvetica;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 10px;
+}
+
+.template .text-wrapper-13 {
+  font-weight: 700;
+  letter-spacing: 0.01px;
+}
+
+.template .text-wrapper-14 {
+  font-family: "Roboto-Regular", Helvetica;
+  letter-spacing: 0.01px;
+}
+
+.template .element {
+  top: 785px;
+  left: 240px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 400;
+  color: #1e293b;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-15 {
+  top: 740px;
+  left: 240px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #1e293b;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-16 {
+  top: 655px;
+  left: 25px;
+  width: 179px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-17 {
+  top: 635px;
+  left: 25px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-18 {
+  top: 180px;
+  left: 25px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-19 {
+  top: 310px;
+  left: 25px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-20 {
+  top: 425px;
+  left: 25px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-21 {
+  position: absolute;
+  top: 450px;
+  left: 25px;
+  width: 184px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  line-height: normal;
+}
+
+.template .text-wrapper-22 {
+  position: absolute;
+  top: 495px;
+  left: 25px;
+  width: 173px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  line-height: normal;
+}
+
+.template .text-wrapper-23 {
+  top: 555px;
+  left: 25px;
+  width: 173px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-24 {
+  position: absolute;
+  top: 220px;
+  left: 25px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.template .text-wrapper-25 {
+  top: 250px;
+  left: 25px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-26 {
+  position: absolute;
+  top: 235px;
+  left: 25px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.template .text-wrapper-27 {
+  top: 280px;
+  left: 25px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-28 {
+  position: absolute;
+  top: 350px;
+  left: 25px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #93c5fdb2;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.template .text-wrapper-29 {
+  position: absolute;
+  top: 380px;
+  left: 25px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #93c5fdb2;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.template .text-wrapper-30 {
+  position: absolute;
+  top: 395px;
+  left: 25px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #93c5fdb2;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.template .text-wrapper-31 {
+  position: absolute;
+  top: 365px;
+  left: 25px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #93c5fdb2;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.template .text-wrapper-32 {
+  top: 205px;
+  left: 25px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  white-space: nowrap;
+  position: absolute;
+  line-height: normal;
+}
+
+.template .text-wrapper-33 {
+  position: absolute;
+  top: 465px;
+  left: 25px;
+  width: 180px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+}
+
+.template .text-wrapper-34 {
+  position: absolute;
+  top: 510px;
+  left: 25px;
+  width: 179px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+}
+
+.template .text-wrapper-35 {
+  position: absolute;
+  top: 570px;
+  left: 25px;
+  width: 179px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+}
+
+.template .text-wrapper-36 {
+  position: absolute;
+  top: 605px;
+  left: 25px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #cbd5e1;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.template .text-wrapper-37 {
+  position: absolute;
+  top: 335px;
+  left: 25px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #93c5fdb2;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.template .rectangle-2 {
+  position: absolute;
+  top: 160px;
+  left: 25px;
+  width: 200px;
+  height: 6px;
+  background-color: #14b8a6;
+}
+
+.template .rectangle-3 {
+  position: absolute;
+  top: 160px;
+  left: 230px;
+  width: 6px;
+  height: 130px;
+  background-color: #14b8a6;
+}
+/* Original stylesheet content is injected above this comment. */
+
+.template a:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.template .element-google-sheets,
+.template .element-SLA {
+  margin: 0;
+  padding-left: 14px;
+  list-style: disc outside;
+}
+
+.template .element-google-sheets li,
+.template .element-SLA li {
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  .template a {
+    color: inherit;
+  }
+}
