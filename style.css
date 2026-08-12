@@ -1,0 +1,266 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e2e8f0;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#section-resume {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.resume-container {
+  display: flex;
+  width: 100%;
+  max-width: 900px; /* Scaled up slightly from original 595px for better web readability */
+  background-color: #ffffff;
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* --- Sidebar Styles --- */
+.sidebar {
+  flex: 0 0 34%;
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 40px 30px;
+  position: relative;
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px auto;
+  display: block;
+  border: 3px solid #334155;
+}
+
+.name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.title {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* The green divider that bleeds into the main content */
+.divider {
+  position: relative;
+  width: calc(100% + 45px); /* 100% + right padding + bleed amount */
+  height: 6px;
+  background-color: #14b8a6;
+  margin: 30px 0;
+  z-index: 10;
+}
+
+.sidebar-section {
+  margin-bottom: 35px;
+}
+
+.sidebar-section:last-child {
+  margin-bottom: 0;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  letter-spacing: 0.02em;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-list li {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+}
+
+.info-list li:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-list li {
+  color: rgba(20, 184, 166, 0.9);
+  font-weight: 600;
+}
+
+.skill-group {
+  margin-bottom: 16px;
+}
+
+.skill-group:last-child {
+  margin-bottom: 0;
+}
+
+.skill-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #ffffff;
+}
+
+.skill-desc {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  line-height: 1.4;
+}
+
+.languages-text {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* --- Main Content Styles --- */
+.main-content {
+  flex: 1;
+  padding: 45px 40px;
+  background-color: #ffffff;
+}
+
+.content-section {
+  margin-bottom: 40px;
+}
+
+.content-section:last-child {
+  margin-bottom: 0;
+}
+
+.content-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 20px 0;
+  letter-spacing: -0.01em;
+}
+
+.sub-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 25px 0 15px 0;
+}
+
+.content-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #334155;
+  margin: 0;
+}
+
+.whitespace-pre {
+  white-space: pre-line;
+}
+
+/* Achievements box with left border */
+.achievements-box {
+  position: relative;
+  padding-left: 18px;
+}
+
+.achievements-box::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 6px;
+  background-color: #14b8a6;
+  border-radius: 3px;
+}
+
+.experience-item {
+  margin-bottom: 25px;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.education-item {
+  margin-bottom: 15px;
+}
+
+.item-header {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.item-subtitle {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+  #section-resume {
+    padding: 20px 10px;
+  }
+
+  .resume-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    flex: none;
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .divider {
+    width: 100%; /* Remove bleed on mobile */
+  }
+
+  .main-content {
+    flex: none;
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
