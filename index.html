@@ -24,19 +24,19 @@
 .resume-container {
   display: flex;
   width: 100%;
-  max-width: 900px; /* Scaled up slightly from original 595px for better web readability */
+  max-width: 900px;
   background-color: #ffffff;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   overflow: hidden;
 }
 
 /* --- Sidebar Styles --- */
 .sidebar {
-  flex: 0 0 34%;
+  flex: 0 0 35%;
   background-color: #1e293b;
   color: #ffffff;
-  padding: 40px 30px;
+  padding: 40px 35px;
   position: relative;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .name {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 700;
   margin: 0 0 8px 0;
   line-height: 1.2;
@@ -64,7 +64,7 @@
 }
 
 .title {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: #cbd5e1;
   font-weight: 400;
   margin: 0;
@@ -73,15 +73,16 @@
 /* The green divider that bleeds into the main content */
 .divider {
   position: relative;
-  width: calc(100% + 45px); /* 100% + right padding + bleed amount */
+  width: calc(100% + 45px);
   height: 6px;
-  background-color: #14b8a6;
+  background: linear-gradient(90deg, #14b8a6, #0d9488);
+  border-radius: 3px;
   margin: 30px 0;
   z-index: 10;
 }
 
 .sidebar-section {
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }
 
 .sidebar-section:last-child {
@@ -200,7 +201,7 @@
   left: 0;
   top: 4px;
   bottom: 4px;
-  width: 6px;
+  width: 8px;
   background-color: #14b8a6;
   border-radius: 3px;
 }
@@ -232,6 +233,26 @@
   font-weight: 600;
 }
 
+/* --- Links styles --- */
+a {
+  color: #14b8a6;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+.portfolio-list a {
+  color: #14b8a6 !important;
+}
+
+.portfolio-list a:hover {
+  color: #ffffff !important;
+}
+
 /* --- Responsive Design --- */
 @media (max-width: 768px) {
   #section-resume {
@@ -249,7 +270,7 @@
   }
   
   .divider {
-    width: 100%; /* Remove bleed on mobile */
+    width: 100%;
   }
   
   .main-content {
@@ -289,10 +310,10 @@
       <div class="sidebar-section">
         <h3 class="section-title">Портфолио</h3>
         <ul class="info-list portfolio-list">
-          <li>📁 <a href="https://listenshareanalytics.atlassian.net/wiki/x/dQAC" target="_blank" style="color: rgba(20, 184, 166, 0.9); text-decoration: none;">Confluence (Analytics Hub)</a></li>
-          <li>📊 <a href="https://drive.google.com/drive/folders/1682pWZRqctI7lBejN3QwxGaZJj60jbpm?usp=drive_link" target="_blank" style="color: rgba(20, 184, 166, 0.9); text-decoration: none;">Google Drive (Дашборды, таблицы)</a></li>
-          <li>💻 <a href="https://github.com/ElenaPhoenix?tab=repositories" target="_blank" style="color: rgba(20, 184, 166, 0.9); text-decoration: none;">GitHub (Код)</a></li>
-          <li>📚 <a href="https://stepik.org/users/583419611/profile" target="_blank" style="color: rgba(20, 184, 166, 0.9); text-decoration: none;">Stepik (Сертификаты)</a></li>
+          <li>📁 <a href="https://listenshareanalytics.atlassian.net/wiki/x/dQAC" target="_blank">Confluence (Analytics Hub)</a></li>
+          <li>📊 <a href="https://drive.google.com/drive/folders/1682pWZRqctI7lBejN3QwxGaZJj60jbpm?usp=drive_link" target="_blank">Google Drive (Дашборды, таблицы)</a></li>
+          <li>💻 <a href="https://github.com/ElenaPhoenix?tab=repositories" target="_blank">GitHub (Код)</a></li>
+          <li>📚 <a href="https://stepik.org/users/583419611/profile" target="_blank">Stepik (Сертификаты)</a></li>
         </ul>
       </div>
       
@@ -335,7 +356,7 @@
         <div class="achievements-box">
           <p class="content-text whitespace-pre">📈 Автоматизировала ключевые процессы в 4 отделах — продуктивность выросла на 20%
 ⏳ Внедрила систему оперативной отчетности — время подготовки аналитики сократилось в 4 раза
-📚 Создала с нуля корпоративную базу знаний для 2 отделов (50+ статей, процедуры, чек-листы)
+📚 Создала с нуля корпоративную базу знаний для 2 отдела (50+ статей, процедуры, чек-листы)
 🎯 Перевела отдел продаж на управление на основе данных вместо интуиции
 👥 Выстроила процессы обучения и адаптации: 6 сотрудников освоили BI-инструменты</p>
         </div>
