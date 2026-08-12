@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Елена Малоросиянцева - Аналитик</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:Resume */
+#section-resume {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.resume-container {
+  display: flex;
+  width: 100%;
+  max-width: 900px; /* Scaled up slightly from original 595px for better web readability */
+  background-color: #ffffff;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* --- Sidebar Styles --- */
+.sidebar {
+  flex: 0 0 34%;
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 40px 30px;
+  position: relative;
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px auto;
+  display: block;
+  border: 3px solid #334155;
+}
+
+.name {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.title {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* The green divider that bleeds into the main content */
+.divider {
+  position: relative;
+  width: calc(100% + 45px); /* 100% + right padding + bleed amount */
+  height: 6px;
+  background-color: #14b8a6;
+  margin: 30px 0;
+  z-index: 10;
+}
+
+.sidebar-section {
+  margin-bottom: 35px;
+}
+
+.sidebar-section:last-child {
+  margin-bottom: 0;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  letter-spacing: 0.02em;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-list li {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+}
+
+.info-list li:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-list li {
+  color: rgba(20, 184, 166, 0.9);
+  font-weight: 600;
+}
+
+.skill-group {
+  margin-bottom: 16px;
+}
+
+.skill-group:last-child {
+  margin-bottom: 0;
+}
+
+.skill-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #ffffff;
+}
+
+.skill-desc {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  line-height: 1.4;
+}
+
+.languages-text {
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* --- Main Content Styles --- */
+.main-content {
+  flex: 1;
+  padding: 45px 40px;
+  background-color: #ffffff;
+}
+
+.content-section {
+  margin-bottom: 40px;
+}
+
+.content-section:last-child {
+  margin-bottom: 0;
+}
+
+.content-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 20px 0;
+  letter-spacing: -0.01em;
+}
+
+.sub-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 25px 0 15px 0;
+}
+
+.content-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #334155;
+  margin: 0;
+}
+
+.whitespace-pre {
+  white-space: pre-line;
+}
+
+/* Achievements box with left border */
+.achievements-box {
+  position: relative;
+  padding-left: 18px;
+}
+
+.achievements-box::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 6px;
+  background-color: #14b8a6;
+  border-radius: 3px;
+}
+
+.experience-item {
+  margin-bottom: 25px;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.education-item {
+  margin-bottom: 15px;
+}
+
+.item-header {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.item-subtitle {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+  #section-resume {
+    padding: 20px 10px;
+  }
+  
+  .resume-container {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    flex: none;
+    width: 100%;
+    padding: 30px 20px;
+  }
+  
+  .divider {
+    width: 100%; /* Remove bleed on mobile */
+  }
+  
+  .main-content {
+    flex: none;
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-resume">
+  <div class="resume-container">
+    
+    <!-- Sidebar (Left Column) -->
+    <aside class="sidebar">
+      <div class="profile-section">
+        <img src="images/f8e47a89a5e730a4ef115ea383333688b8f00a06.png" alt="Елена Малоросиянцева" class="profile-img">
+        <h1 class="name">Елена Малоросиянцева</h1>
+        <h2 class="title">Аналитик</h2>
+      </div>
+      
+      <div class="divider"></div>
+      
+      <div class="sidebar-section">
+        <h3 class="section-title">Контакты</h3>
+        <ul class="info-list">
+          <li>📍 Москва, Россия</li>
+          <li>📞 +7(916) 326-69-25</li>
+          <li>✉️ latikayegane@yandex.ru</li>
+          <li>🚀 Полная занятость, удаленно / гибрид</li>
+          <li>💰 от 200 000 ₽ (вилка обсуждаема)</li>
+        </ul>
+      </div>
+      
+      <div class="sidebar-section">
+        <h3 class="section-title">Портфолио</h3>
+        <ul class="info-list portfolio-list">
+          <li>📁 Confluence (Analytics Hub)</li>
+          <li>📊 Google Drive (Дашборды, таблицы)</li>
+          <li>💻 GitHub (Код)</li>
+          <li>📚 Stepik (Сертификаты)</li>
+        </ul>
+      </div>
+      
+      <div class="sidebar-section">
+        <h3 class="section-title">Навыки</h3>
+        <div class="skill-group">
+          <div class="skill-name">Сбор и обработка данных (Hardcore)</div>
+          <div class="skill-desc">SQL (MySQL, Clickhouse), Python, JavaScript, API</div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-name">Аналитика и визуализация (BI)</div>
+          <div class="skill-desc">Google Looker Studio, Google Sheets, Microsoft Excel (Power Pivot, Power Query), Power BI, Miro</div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-name">Автоматизация и процессы</div>
+          <div class="skill-desc">n8n, BPMN, Git</div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-name">Управление</div>
+          <div class="skill-desc">Jira, Confluence, Agile</div>
+        </div>
+      </div>
+      
+      <div class="sidebar-section">
+        <h3 class="section-title">Языки</h3>
+        <p class="languages-text">Русский (родной), английский (С1), турецкий (С1).</p>
+      </div>
+    </aside>
+    
+    <!-- Main Content (Right Column) -->
+    <main class="main-content">
+      
+      <div class="content-section">
+        <h3 class="content-title">О себе</h3>
+        <p class="content-text">Аналитик с опытом в IT и финтехе. Закрываю полный цикл работы с данными: от интеграции и очистки до визуализации и презентации инсайтов. Специализируюсь на автоматизации рутины и построении прозрачных систем отчетности. Обладаю развитыми навыками коммуникации, критического мышления и эмоционального интеллекта, что помогает эффективно взаимодействовать с командами разработки и бизнес-заказчиками.</p>
+      </div>
+      
+      <div class="content-section">
+        <h3 class="content-title">Ключевые достижения</h3>
+        <div class="achievements-box">
+          <p class="content-text whitespace-pre">📈 Рост продуктивности команды: +20%
+⏳ Скорость отчетности выросла в 4 раза
+👥 Обучила 6 сотрудников BI-инструментам и аналитическим процессам
+📚 Создана база знаний с нуля в 2 отделах
+🎯Внедрила систему отчетности для отдела продаж -
+ бизнес начал принимать решения на основе данных, 
+ а не интуиции.</p>
+        </div>
+      </div>
+      
+      <div class="content-section">
+        <h3 class="content-title">Опыт работы</h3>
+        
+        <div class="experience-item">
+          <div class="item-header">NDA (международная IT-компания (FinTech) | 2023 — наст. время</div>
+          <div class="item-subtitle">Аналитик данных</div>
+          <p class="content-text whitespace-pre">Повысила продуктивность 4 отделов на 20% за счет автоматизации ручных отчетов в Google Sheets и n8n.
+Сократила время подготовки аналитики в 4 раза: внедрение дашбордов в Looker Studio.
+Создала систему мониторинга багов в реальном времени — скорость реакции с 3 дней до 2 часов.
+Обучила 6 сотрудников работе с BI-инструментами и аналитическими процессами.
+Разработала базу знаний в Confluence с нуля (50+ статей, процедуры, паспорта позиций).
+Внедрила отчетность для команды продаж, что позволило бизнесу принимать обоснованные решения.
+Совмещала обязанности координатора и бизнес-ассистента руководителя (ведение встреч и календаря, презентации, ретроспективы).
+Администрировала чаты.</p>
+        </div>
+        
+        <div class="experience-item">
+          <div class="item-header">Т-Банк | 2019 (6 месяцев)</div>
+          <div class="item-subtitle">Специалист чат-поддержки (дебетовые карты и вклады)</div>
+          <p class="content-text whitespace-pre">Обеспечивала многоканальную поддержку (до 5 чатов) с соблюдением жестких SLA.
+Выявляла потребности клиентов и проактивно предлагала кросс-продукты, увеличивая клиентскую базу.
+Предотвращала эскалацию конфликтов и негативные отзывы, работая с возражениями.</p>
+        </div>
+      </div>
+      
+      <div class="content-section">
+        <h3 class="content-title">Образование</h3>
+        
+        <div class="education-item">
+          <div class="item-header">Саратовский государственный университет им. Н.Г. Чернышевского</div>
+          <div class="item-subtitle">Социально-культурный сервис и туризм | 2010</div>
+        </div>
+        
+        <h4 class="sub-heading">Дополнительное образование</h4>
+        
+        <div class="education-item">
+          <div class="item-header">Geekbrains — Аналитика и программирование | 2025</div>
+        </div>
+        <div class="education-item">
+          <div class="item-header">МГИМО — Английский язык (Upper Intermediate) | 2017</div>
+        </div>
+        <div class="education-item">
+          <div class="item-header">Центр турецкого языка и культуры, Саратов - Турецкий язык | 2010</div>
+        </div>
+      </div>
+      
+    </main>
+  </div>
+</section>
+</body>
+</html>
